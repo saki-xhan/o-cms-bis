@@ -1,12 +1,12 @@
 {
-  "name": "bintools",
-  "description": "Simple web-based conversion tools",
-  "homepage": "http://sheabunge.github.io/bintools",
+  "name": "o-cms-bis",
+  "description": "Simple convertor cms card",
+  "homepage": "http://ebonyta-asf.github.io/o-cms-bis",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sheabunge/bintools.git"
+    "url": "https://github.com/Ebonyta-asf/o-cms-bis.git"
   },
-  "author": "Shea Bunge <shea@bungeshea.com>",
+  "author": "Ebonyta-asf <...@gmail.com>",
   "license": "MIT",
   "main": "gulpfile.babel.js",
   "babel": {
