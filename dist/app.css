@@ -49,6 +49,12 @@ notice {
   background:rgba(0,0,0,.5);
   color: white;
 }
+footer {
+  position: absolute;
+  color: white;
+  bottom: 0px;
+  
+}
 
 form {
   flex-flow: column
