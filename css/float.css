@@ -1,0 +1,127 @@
+
+
+body {
+	font-family: Droid Sans, sans-serif;
+}
+
+.output {
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	margin: 1em 0;
+}
+
+.sign, .exp, .mantissa {
+	display: flex;
+	flex-flow: column;
+}
+
+.bits {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 1em;
+}
+
+.bits > * {
+	flex: 1;
+}
+
+.bit {
+	padding: 3px 6px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	margin: 0 2px;
+	font-size: 20px;
+	color: #666;
+}
+
+.desc {
+	margin: 10px auto;
+}
+
+.config {
+	margin-top: 1em;
+	padding: 1em 0;
+	border-top: 1px solid #efefef;
+	border-bottom: 1px solid #efefef;
+
+	p {
+		margin-top: 0;
+	}
+
+	[type=number] {
+		width: 3em;
+		padding-right: 0;
+		text-align: center;
+		margin-right: 5px;
+	}
+}
+
+input {
+	font-size: 15px;
+}
+
+.input input {
+	width: 75%;
+}
+
+.steps {
+	display: flex;
+
+	section {
+		width: 50%;
+		padding: 1em 1.5em;
+	}
+
+	h3 {
+		text-align: center;
+		display: block;
+		font-size: 1rem;
+		margin-bottom: 1em;
+	}
+
+	p {
+		padding: 0;
+		margin: 5px 0;
+	}
+
+	.validation {
+		float: right;
+	}
+
+	.calculation {
+		border-right: 1px solid #efefef;
+
+		p {
+			&::before {
+				content: '= ';
+				padding-right: 2px;
+			}
+
+			&:first-of-type::before {
+				visibility: hidden;
+			}
+		}
+	}
+
+	table {
+		white-space: nowrap;
+	}
+
+	th {
+		text-align: left;
+	}
+
+	td::before {
+		content: '=';
+		padding-right: 5px;
+	}
+
+	sup {
+		margin-left: 1px;
+	}
+
+	sub {
+		font-size: 7px;
+	}
+}
